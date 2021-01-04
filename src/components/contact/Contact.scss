@@ -1,0 +1,107 @@
+$blue: #5473ff;
+$green: #6fb332;
+
+.contact-section {
+  .homeIcon {
+    color: $blue;
+    font-size: 40px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .contact-container {
+    border: 3px solid $blue;
+    width: fit-content;
+    margin: auto;
+    padding: 10px 30px;
+    border-radius: 5px;
+    h2 {
+      margin-top: 0;
+      text-align: center;
+    }
+    #contact-form {
+      .form-control {
+        width: 300px;
+        border: 2px solid $blue;
+        border-radius: 5px;
+      }
+      .email {
+        height: 30px;
+        margin-bottom: 10px;
+      }
+      textarea {
+        height: 100px;
+      }
+      .submit {
+        display: block;
+        width: 100px;
+        height: 30px;
+        margin: auto;
+        margin-top: 10px;
+        background-color: $green;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        font-size: 17px;
+      }
+    }
+    h5 {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+    .social-media {
+      width: 100%;
+      width: fit-content;
+      margin: auto;
+      margin-bottom: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      a {
+        text-decoration: none;
+      }
+      .container {
+        display: flex;
+        border: 3px solid #1da1f2;
+        align-items: center;
+        border-radius: 50px;
+        margin-right: 5px;
+        img {
+          width: 20px;
+        }
+      }
+      .logo {
+        background-color: #1da1f2;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        color: white;
+        overflow: hidden;
+      }
+      span {
+        margin: 0 5px;
+        font-weight: 600;
+        font-size: 12px;
+        color: white;
+        text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+      }
+      .fiverr {
+        border-color: #00b22d;
+        background-color: #00b22c88;
+        .logo {
+          background-color: #00b22d;
+        }
+      }
+      .mostaqel {
+        border-color: #27ace3;
+        background-color: #27abe38a;
+        .logo {
+          background-color: #27ace3;
+        }
+      }
+    }
+  }
+}

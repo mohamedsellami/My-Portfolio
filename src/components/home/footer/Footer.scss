@@ -1,0 +1,139 @@
+$green: #6fb332;
+
+.footer-section {
+  padding-top: 200px;
+  h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+  h4 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .contact-footer {
+    display: block;
+    width: 200px;
+    margin: auto;
+    height: 50px;
+    margin-bottom: 100px;
+    background-color: $green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .social-media {
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    a {
+      text-decoration: none;
+    }
+    .container {
+      display: flex;
+      border: 3px solid #1da1f2;
+      background-color: #1da0f26b;
+      align-items: center;
+      border-radius: 50px;
+      margin-right: 20px;
+      img {
+        width: 40px;
+      }
+    }
+    .logo {
+      background-color: #1da1f2;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      color: white;
+      overflow: hidden;
+    }
+    span {
+      margin: 0 5px;
+      font-weight: 600;
+      color: white;
+      text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    }
+    .instagram {
+      border-color: #cd486b;
+      background-color: #cd486b9f;
+      .logo {
+        background-color: #cd486b;
+      }
+    }
+    .github {
+      border-color: #211f1f;
+      background-color: #211f1f98;
+      .logo {
+        background-color: #211f1f;
+      }
+    }
+    .fiverr {
+      border-color: #00b22d;
+      background-color: #00b22c85;
+      .logo {
+        background-color: #00b22d;
+      }
+    }
+    .mostaqel {
+      border-color: #27ace3;
+      background-color: #27abe373;
+      .logo {
+        background-color: #27ace3;
+      }
+    }
+  }
+  footer {
+    width: 100%;
+    height: 50px;
+    background-color: #264653;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1700px;
+    margin: auto;
+    span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-weight: 600;
+      .MuiSvgIcon-root {
+        margin: 0 3px;
+        color: #5473ff;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 500px) {
+  .footer-section {
+    h3 {
+      font-size: 20px;
+      padding: 0 5%;
+    }
+    h4 {
+      font-size: 20px;
+    }
+    .social-media {
+      display: block;
+      .container {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    }
+    footer {
+      span {
+        font-size: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+$blue-background: #5473ff;
+
+.projects {
+  width: 100%;
+  max-width: 1700px;
+  height: fit-content;
+  background-color: $blue-background;
+  padding: 0 5%;
+  margin: auto;
+  h2 {
+    margin: 0;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    font-size: 40px;
+  }
+}
+
+@media screen and(max-width: 500px) {
+  .projects {
+    h2 {
+      font-size: 30px;
+    }
+  }
+}

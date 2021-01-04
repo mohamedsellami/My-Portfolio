@@ -1,0 +1,105 @@
+$blue-background: #5473ff;
+
+.frontendMentorProjects-container {
+  position: relative;
+  padding-bottom: 50px;
+  h3 {
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .frontendMentor-projects {
+    padding-bottom: 50px;
+    display: flex;
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+    height: 340px;
+    padding-top: 20px;
+    width: 1050px;
+    margin: auto;
+    .project {
+      width: 250px;
+      height: 270px;
+      margin: 0 5px;
+      .project-image {
+        height: 100px;
+      }
+      h5 {
+        height: 55px;
+      }
+    }
+  }
+}
+
+.leftAndRightbuttons {
+  button {
+    position: absolute;
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  .left {
+    top: 40%;
+    display: none;
+  }
+  .right {
+    top: 40%;
+    right: 0;
+  }
+}
+
+.leftAndRightbuttons-mobile {
+  display: none;
+}
+
+@media screen and(max-width: 1260px) {
+  .frontendMentorProjects-container .frontendMentor-projects {
+    width: 630px;
+  }
+}
+
+@media screen and(max-width: 820px) {
+  .frontendMentorProjects-container .frontendMentor-projects {
+    width: 420px;
+  }
+}
+
+@media screen and(max-width: 500px) {
+  .frontendMentorProjects-container {
+    h3 {
+      font-size: 5vw;
+    }
+    .frontendMentor-projects {
+      width: 210px;
+      padding-bottom: 10px;
+      height: fit-content;
+    }
+    .leftAndRightbuttons {
+      display: none;
+    }
+  }
+  .leftAndRightbuttons-mobile {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    button {
+      width: 50px;
+      border: none;
+      cursor: pointer;
+      background-color: white;
+    }
+    .left {
+      border-radius: 10px 0 0 10px;
+      border-right: 1px solid rgba(0, 0, 0, 0.5);
+      pointer-events: none;
+    }
+    .right {
+      border-radius: 0 10px 10px 0;
+    }
+  }
+}

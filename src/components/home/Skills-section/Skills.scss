@@ -1,0 +1,47 @@
+.skills {
+  max-width: 1700px;
+  margin: auto;
+  .my-skills {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    .technologie {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .string {
+        width: 5px;
+        height: 150px;
+        background-color: black;
+      }
+      img {
+        width: 50px;
+      }
+      .react {
+        border-radius: 50%;
+      }
+    }
+    .main-skill .string {
+      height: 100px;
+    }
+  }
+}
+
+@media screen and(max-width: 500px) {
+  .skills {
+    .my-skills {
+      .technologie {
+        .string {
+          width: 3px;
+          height: 100px;
+        }
+        img {
+          width: 20px;
+        }
+      }
+      .main-skill .string {
+        height: 50px;
+      }
+    }
+  }
+}

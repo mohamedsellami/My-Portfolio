@@ -1,0 +1,228 @@
+{
+    "topProjects": [{
+        "id": 1,
+        "category": "topProjects",
+        "title": "Amazon Clone",
+        "images": ["./images/projects/amazon-1.png", "./images/projects/amazon-2.png", "./images/projects/amazon-3.png", "./images/projects/amazon-4.png", "./images/projects/amazon-5.png"],
+        "code": "https://github.com/mohamedsellami/Amazon-Clone.git",
+        "demo": "https://clone-a49c5.web.app/",
+        "tools": [["./images/html.png", "./images/css.png", "./images/javascript.svg", "./images/react.svg", "./images/firebase.png"], [{"details": "in this project I used HTML, CSS, JavaScript, React and Firebase"}, {"details": "I used some modern technologies like React Hooks, React Context API, Reducer Hooks, React-Router and Material UI"}, {"details": "I used Firebise to deploy the website and I used Firebase Authentication"}]],
+        "features": ["User can add and remove products to the basket", "User can see all the products he/she added on the checkout page", "User can move to the payment page", "When a user moves between pages the page will not reload and that makes the website faster", "User can see the total amount of products he/she added", "I Added animation to the website to give user better experience"]
+    },
+    {
+        "id": 2,
+        "category": "topProjects",
+        "title": "Rest Countries API",
+        "images": ["./images/projects/countries-1.png", "./images/projects/countries-2.png", "./images/projects/countries-3.png", "./images/projects/countries-4.png", "./images/projects/countries-5.png", "./images/projects/countries-6.png"],
+        "code": "https://github.com/mohamedsellami/restCountries-API.git",
+        "demo": "https://condescending-hypatia-ac95c8.netlify.app/",
+        "tools": [["./images/html.png", "./images/css.png", "./images/sass.png", "./images/javascript.svg", "./images/react.svg"], [{"details": "I used in this project HTML, CSS, SASS, JavaScript, React"}, {"details": "I used some modern technologies like React Hooks, React Context API, Reducer Hooks, React-Router and Material UI and I worked with rest-countries API"}, {"details": "I used netlify to deploy the website"}]],
+        "features": ["The design of this project is from Frontend Mentor","User can see all countries of the world", "User can filter countries by region", "User can search for a specific country", "When a user clicks on a country a detail page open for that country", "User can switch between dark and light mode", "When a user moves between pages the page will not reload and that makes the website faster"]
+    },
+    {
+        "id": 3,
+        "category": "topProjects",
+        "title": "My Journey Website",
+        "images": ["./images/projects/myjourney-1.png", "./images/projects/myjourney-2.png", "./images/projects/myjourney-3.png", "./images/projects/myjourney-4.png", "./images/projects/myjourney-5.png"],
+        "code": "https://github.com/mohamedsellami/myJourney-website",
+        "demo": "https://my-journey-website.vercel.app/",
+        "tools": [["./images/html.png", "./images/css.png", "./images/sass.png", "./images/bootstrap.png", "./images/javascript.svg", "./images/jquery.svg"], [{"details": "I used in this project HTML, CSS, SASS, Bootstrap, JavaScript and jQuery"}, {"details": "I used Vercel to deploy this project"}]],
+        "features": ["This is a personal project, and the idea behind this project is that the website helps people who learn to organize their learning journey", "I used animation and colour to give the user a good experience",
+        "User can switch between dark and light mode", "The website is responsive and I used mobile-first design so the website will load faster on mobile", "This website still under development"]
+    }
+],
+    "frontendMentorProjects": [
+        {
+        "id": 4,
+        "category": "frontendMentorProjects",
+        "title": "Trancking intro component",
+        "images": ["./images/projects/tracking-intro-1.png"],
+        "code": "https://github.com/mohamedsellami/Project-tracking-intro-component",
+        "demo": "https://project-tracking-intro-component-murex.vercel.app/",
+        "tools": [["./images/html.png", "./images/css.png", "./images/sass.png", "./images/javascript.svg"], [{"details": "I used in this project HTML, CSS, SASS and JavaScript"}, {"details": "I used Vercel to deploy this project"}]],
+        "features": ["User can use the project on both website and mobile, he/she can get the navigation bar on the mobile version by clicking on the burger icon"]
+    },
+    {
+        "id": 5,
+        "category": "frontendMentorProjects",
+        "title": "clipboard landing page",
+        "images": ["./images/projects/clipboard-1.png"],
+        "code": "https://github.com/mohamedsellami/clipboard-landing-page.git",
+        "demo": "https://clipboard-landing-page-self.vercel.app/",
+        "tools": [["./images/html.png", "./images/css.png", "./images/sass.png", "./images/bootstrap.png"], [{"details": "I used in this project HTML, CSS, SASS and Bootstarp"}, {"details": "I used Vercel to deploy this project"}]],
+        "features": ["User can use the project on both website and mobile, I used mobile-first design so the website will load faster on mobile"]
+    },
+    {
+        "id": 6,
+        "category": "frontendMentorProjects",
+        "title": "pricing component",
+        "images": ["./images/projects/pricing-component-1.png"],
+        "code": "https://github.com/mohamedsellami/pricing-component-with-toggle.git",
+        "demo": "https://pricing-component-with-toggle-dun.vercel.app/",
+        "tools": [["./images/html.png", "./images/css.png", "./images/sass.png", "./images/javascript.svg"], [{"details": "I used in this project HTML, CSS, SASS and JavaScript"}, {"details": "I used Vercel to deploy this project"}]],
+        "features": ["User can use the project on both website and mobile, I used mobile-first design so the website will load faster on mobile", "User can toggle btween", "User can toggle between annual and monthly prices"]
+    },
+    {
+        "id": 7,
+        "category": "frontendMentorProjects",
+        "title": "insure landing page",
+        "images": ["./images/projects/insure-landing-1.png"],
+        "code": "https://github.com/mohamedsellami/insure-landing-page.git",
+        "demo": "https://insure-landing-page-gold.vercel.app/",
+        "tools": [["./images/html.png", "./images/css.png", "./images/sass.png", "./images/javascript.svg"], [{"details": "I used in this project HTML, CSS, SASS and JavaScript"}, {"details": "I used Vercel to deploy this project"}]],
+        "features": ["User can use the project on both website and mobile, I used mobile-first design so the website will load faster on mobile"]
+    },
+    {
+        "id": 8,
+        "category": "frontendMentorProjects",
+        "title": "Social media dashboard",
+        "images": ["./images/projects/social-media-1.png"],
+        "code": "https://github.com/mohamedsellami/social-media-dashboard-.git",
+        "demo": "https://social-media-dashboard-black-six.vercel.app/",
+        "tools": [["./images/html.png", "./images/css.png", "./images/sass.png", "./images/javascript.svg"], [{"details": "I used in this project HTML, CSS, SASS and JavaScript"}, {"details": "I used Vercel to deploy this project"}]],
+        "features": ["User can use the project on both website and mobile, I used mobile-first design so the website will load faster on mobile", "User can switch between dark and light mode"]
+    },
+    {
+        "id": 9,
+        "category": "frontendMentorProjects",
+        "title": "Fylo landing page",
+        "images": ["./images/projects/fylo-page-1.png"],
+        "code": "https://github.com/mohamedsellami/fylo-landing-page-with-two-column-layout",
+        "demo": "https://fylo-landing-page-with-two-column-layout-neon.vercel.app/",
+        "tools": [["./images/html.png", "./images/css.png", "./images/sass.png"], [{"details": "I used in this project HTML, CSS, SASS"}, {"details": "I used Vercel to deploy this project"}]],
+        "features": ["User can use the project on both website and mobile, I used mobile-first design so the website will load faster on mobile"]
+    },
+    {
+        "id": 10,
+        "category": "frontendMentorProjects",
+        "title": "huddle landing page",
+        "images": ["./images/projects/huddle-landing-1.png"],
+        "code": "https://github.com/mohamedsellami/huddle-landing-page-with-alternative-feature-blocks.git",
+        "demo": "https://huddle-landing-page-with-alternative-feature-blocks.vercel.app/",
+        "tools": [["./images/html.png", "./images/css.png", "./images/sass.png"], [{"details": "I used in this project HTML, CSS, SASS"}, {"details": "I used Vercel to deploy this project"}]],
+        "features": ["User can use the project on both website and mobile, I used mobile-first design so the website will load faster on mobile"]
+    },
+    {
+        "id": 11,
+        "category": "frontendMentorProjects",
+        "title": "ping coming soon page",
+        "images": ["./images/projects/ping-comming-1.png"],
+        "code": "https://github.com/mohamedsellami/ping-comming-soon-page",
+        "demo": "https://ping-comming-soon-page.vercel.app/",
+        "tools": [["./images/html.png", "./images/css.png", "./images/sass.png"], [{"details": "I used in this project HTML, CSS, SASS"}, {"details": "I used Vercel to deploy this project"}]],
+        "features": ["User can use the project on both website and mobile, I used mobile-first design so the website will load faster on mobile"]
+    },
+    {
+        "id": 12,
+        "category": "frontendMentorProjects",
+        "title": "single price grid coponent",
+        "images": ["./images/projects/price-grid-1.png"],
+        "code": "https://github.com/mohamedsellami/single-price-grid",
+        "demo": "https://single-price-grid-xi.vercel.app/",
+        "tools": [["./images/html.png", "./images/css.png", "./images/sass.png"], [{"details": "I used in this project HTML, CSS, SASS"}, {"details": "I used Vercel to deploy this project"}]],
+        "features": ["User can use the project on both website and mobile, I used mobile-first design so the website will load faster on mobile"]
+    },
+    {
+        "id": 13,
+        "category": "frontendMentorProjects",
+        "title": "four card feature section",
+        "images": ["./images/projects/four-card-1.png"],
+        "code": "https://github.com/mohamedsellami/four-cards-feature-section",
+        "demo": "https://four-cards-feature-section-iota.vercel.app/",
+        "tools": [["./images/html.png", "./images/css.png", "./images/sass.png"], [{"details": "I used in this project HTML, CSS, SASS"}, {"details": "I used Vercel to deploy this project"}]],
+        "features": ["User can use the project on both website and mobile, I used mobile-first design so the website will load faster on mobile"]
+    },
+    {
+        "id": 14,
+        "category": "frontendMentorProjects",
+        "title": "sign-up form",
+        "images": ["./images/projects/sign-up-1.png"],
+        "code": "https://github.com/mohamedsellami/sign-up-form.git",
+        "demo": "https://sign-up-form-nu.vercel.app/",
+        "tools": [["./images/html.png", "./images/css.png", "./images/sass.png", "./images/javascript.svg"], [{"details": "I used in this project HTML, CSS, SASS and JavaScript"}, {"details": "I used Vercel to deploy this project"}]],
+        "features": ["If the user forgets to fill in a field or entered a wrong email address, a warning will appear","User can use the project on both website and mobile, I used mobile-first design so the website will load faster on mobile"]
+    },
+    {
+        "id": 15,
+        "category": "frontendMentorProjects",
+        "title": "coming soon page",
+        "images": ["./images/projects/comming-soon-1.png"],
+        "code": "https://github.com/mohamedsellami/comming-soon-page",
+        "demo": "https://comming-soon-page.vercel.app/",
+        "tools": [["./images/html.png", "./images/css.png", "./images/sass.png"], [{"details": "I used in this project HTML, CSS, SASS"}, {"details": "I used Vercel to deploy this project"}]],
+        "features": ["User can use the project on both website and mobile, I used mobile-first design so the website will load faster on mobile"]
+    },
+    {
+        "id": 16,
+        "category": "frontendMentorProjects",
+        "title": "article preview component",
+        "images": ["./images/projects/article-preview-1.png"],
+        "code": "https://github.com/mohamedsellami/responsive-design-for-article-preview-component-using-css",
+        "demo": "https://responsive-design-for-article-preview-component-using-css.vercel.app/",
+        "tools": [["./images/html.png", "./images/css.png", "./images/sass.png"], [{"details": "I used in this project HTML, CSS, SASS"}, {"details": "I used Vercel to deploy this project"}]],
+        "features": ["User can use the project on both website and mobile, I used mobile-first design so the website will load faster on mobile"]
+    },
+    {
+        "id": 17,
+        "category": "frontendMentorProjects",
+        "title": "Fylo data storage component",
+        "images": ["./images/projects/fylo-data-1.png"],
+        "code": "https://github.com/mohamedsellami/mobile-first-design-fylo-data-storage-component-using-flex-box",
+        "demo": "https://mobile-first-design-fylo-data-storage-component-using-flex-box.vercel.app/",
+        "tools": [["./images/html.png", "./images/css.png", "./images/sass.png"], [{"details": "I used in this project HTML, CSS, SASS"}, {"details": "I used Vercel to deploy this project"}]],
+        "features": ["User can use the project on both website and mobile, I used mobile-first design so the website will load faster on mobile"]
+    }
+    ],
+    "freeCodeCampProjects": [
+        {
+        "id": 18,
+        "title": "Drum Machine",
+        "category": "freeCodeCampProjects",
+        "images": ["./images/projects/drum-machine-1.png"],
+        "code": "https://codepen.io/mohamedsellami/pen/abmzRMW",
+        "demo": "https://codepen.io/mohamedsellami/full/abmzRMW",
+        "tools": [["./images/html.png", "./images/css.png", "./images/sass.png", "./images/javascript.svg"], [{"details": "I used in this project HTML, CSS, SASS and React"}]],
+        "features": ["When the user presses any key, the drumbeat", "The user can change Bank", "The user can increase or decrease the volume", "The user can switch the power of the drum machine between on and off"]
+    },
+    {
+        "id": 19,
+        "title": "simple Markdown Previewer",
+        "category": "freeCodeCampProjects",
+        "images": ["./images/projects/markdown-1.png"],
+        "code": "https://codepen.io/mohamedsellami/pen/qBaEaWw",
+        "demo": "https://codepen.io/mohamedsellami/full/qBaEaWw",
+        "tools": [["./images/html.png", "./images/css.png", "./images/sass.png", "./images/javascript.svg"], [{"details": "I used in this project HTML, CSS, SASS and React"}]],
+        "features": ["User can type anything in the editor and see the result in the preview"]
+    },
+    {
+        "id": 20,
+        "title": "Random Quote Machine",
+        "category": "freeCodeCampProjects",
+        "images": ["./images/projects/quote-machine-1.png"],
+        "code": "https://codepen.io/mohamedsellami/pen/MWjWNqx",
+        "demo": "https://codepen.io/mohamedsellami/full/MWjWNqx",
+        "tools": [["./images/html.png", "./images/css.png", "./images/sass.png", "./images/javascript.svg"], [{"details": "I used in this project HTML, CSS, SASS and React"}]],
+        "features": ["In each time user click 'new quote' button a new random quote will appear"]
+    },
+    {
+        "id": 21,
+        "title": "Calculator",
+        "category": "freeCodeCampProjects",
+        "images": ["./images/projects/calculator-1.png"],
+        "code": "https://codepen.io/mohamedsellami/pen/rNMxWBr",
+        "demo": "https://codepen.io/mohamedsellami/full/rNMxWBr",
+        "tools": [["./images/html.png", "./images/css.png", "./images/sass.png", "./images/javascript.svg"], [{"details": "I used in this project HTML, CSS, SASS and React"}]],
+        "features": ["This calculator can do math operations just like a real calculator can"]
+    },
+    {
+        "id": 22,
+        "title": "25 + 5 Clock",
+        "category": "freeCodeCampProjects",
+        "images": ["./images/projects/clock-1.png"],
+        "code": "https://codepen.io/mohamedsellami/pen/WNGrOwL",
+        "demo": "https://codepen.io/mohamedsellami/full/WNGrOwL",
+        "tools": [["./images/html.png", "./images/css.png", "./images/sass.png", "./images/javascript.svg"], [{"details": "I used in this project HTML, CSS, SASS and React"}]],
+        "features": ["User can set the number of minutes in session and break", "When the user presses 'start' the countdown starts, when the clock reaches 00:00, the alarm rings", "User can stop or restart the clock"]
+    }
+    ]
+}

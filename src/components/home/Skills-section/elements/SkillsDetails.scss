@@ -1,0 +1,76 @@
+$blue-background: #5473ff;
+
+.details {
+  margin: 100px 0;
+  .container {
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    div {
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+      background-color: $blue-background;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      transition: all 1s ease;
+      h2 {
+        color: white;
+        font-weight: 600;
+        margin: 0;
+        transition: all 0.5s ease;
+      }
+      p {
+        color: white;
+        width: 250px;
+        margin-top: 5px;
+        text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+        display: none;
+        font-size: 17px;
+        text-align: center;
+        transition: all 0.5s ease;
+      }
+    }
+    .image {
+      background-color: #5473ff69;
+      position: absolute;
+      top: 0;
+      img {
+        width: 250px;
+      }
+    }
+    .content {
+      position: relative;
+      z-index: 2;
+    }
+  }
+  .who-I-am {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and(max-width: 720px) {
+  .details {
+    .container {
+      display: flex;
+      flex-direction: column;
+      div {
+        width: 300px;
+        height: 300px;
+        p {
+          display: block;
+        }
+      }
+      .image {
+        position: static;
+        transform: translateX(0);
+        transform: translateY(-70px);
+      }
+      .content {
+        transform: translateX(0);
+      }
+    }
+  }
+}

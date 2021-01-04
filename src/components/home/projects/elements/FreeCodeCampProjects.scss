@@ -1,0 +1,80 @@
+.freeCodeCampProjects-container {
+  position: relative;
+  padding-bottom: 50px;
+  h3 {
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .freeCodeCamp-projects {
+    display: flex;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+    height: 340px;
+    padding-top: 20px;
+    width: 1050px;
+    margin: auto;
+    .project {
+      width: 250px;
+      height: 270px;
+      margin: 0 5px;
+      .project-image {
+        height: 100px;
+      }
+      h5 {
+        height: 55px;
+      }
+    }
+  }
+  .leftAndRightbuttons {
+    display: none;
+  }
+}
+
+.leftAndRightbuttons-mobile {
+  display: none;
+}
+
+@media screen and(max-width: 1260px) {
+  .freeCodeCampProjects-container {
+    .freeCodeCamp-projects {
+      width: 630px;
+    }
+    .leftAndRightbuttons {
+      display: block;
+    }
+  }
+}
+
+@media screen and(max-width: 820px) {
+  .freeCodeCampProjects-container {
+    .freeCodeCamp-projects {
+      width: 420px;
+    }
+    .leftAndRightbuttons {
+      display: block;
+    }
+  }
+}
+
+@media screen and(max-width: 500px) {
+  .freeCodeCampProjects-container {
+    h3 {
+      font-size: 5vw;
+    }
+    .freeCodeCamp-projects {
+      width: 210px;
+      height: fit-content;
+      padding-bottom: 10px;
+    }
+    .leftAndRightbuttons {
+      display: none;
+    }
+  }
+  .leftAndRightbuttons-mobile {
+    display: block;
+  }
+}

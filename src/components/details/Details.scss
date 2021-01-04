@@ -1,0 +1,32 @@
+$blue-background: #5473ff;
+
+.details-page {
+  .header {
+    width: 100%;
+    height: 50px;
+    background-color: #5473ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    max-width: 1700px;
+    margin: auto;
+    .logo {
+      height: fit-content;
+      .MuiSvgIcon-root {
+        color: white;
+        cursor: pointer;
+        font-size: 30px;
+      }
+    }
+    button {
+      width: 100px;
+      height: 30px;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      background-color: #6fb332;
+      cursor: pointer;
+    }
+  }
+}
