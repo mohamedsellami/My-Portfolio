@@ -19,7 +19,7 @@ function Contact() {
                     <br/>
                     <textarea name="message" className="form-control" placeholder="Message" col="10" required/>
                     <br/>
-                    <input type="submit" value="send" className="submit"/>
+                    <input type="submit" name="submit" value="send" className="submit"/>
                 </form>
                 <h5>You can also work with me here</h5>
                 <div className="social-media">
