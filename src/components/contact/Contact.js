@@ -14,7 +14,8 @@ function Contact() {
             </Link>
             <div className="contact-container">
                 <h2>Contact me</h2>
-                <form id="contact-form" name="contact" method="POST" action="/" data-netlify="true">
+                <form id="contact-form" name="contact" method="POST" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact-value" />
                     <input name="email" className="form-control email" type="email" placeholder="Your email" required/>
                     <br/>
                     <textarea name="message" className="form-control" placeholder="Message" col="10" required/>
