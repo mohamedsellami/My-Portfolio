@@ -31,7 +31,7 @@ function Details() {
         <div className="details">
             <div className="container who-I-am">
                 <div className="content">
-                    <h2>Who i am?</h2>
+                    <h2>Who am i?</h2>
                     <p>I'm a Frontend Web Developer, I can work with HTML, CSS, Sass JavaScript, React, Bootstrap, jQuery and I can work with API.<br/>I love working with React and I build most of my projects using it.</p>
                 </div>
                 <div className="image">
@@ -40,7 +40,7 @@ function Details() {
             </div>
             <div className="container what-I-can-offer">
                 <div className="content">
-                    <h2>What I can offer?</h2>
+                    <h2>What can I offer?</h2>
                     <p>I'll build the frontend of your website, and I'll make sure your website is responsive, modern and fast.<br/>I can add animation and make your website interact with the user</p>
                 </div>
                 <div className="image">
