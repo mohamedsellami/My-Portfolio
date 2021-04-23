@@ -21,7 +21,7 @@ function Footer() {
                         <span>Twitter</span>
                     </div>
                 </a>
-                <a href="https://www.instagram.com/moh_amed_sellami/?hl=en" target="_blank">
+                <a href="https://www.instagram.com/mohamedsellamidev/" target="_blank">
                     <div className="container instagram">
                         <div className="logo"><InstagramIcon/></div>
                         <span>Instagram</span>
