@@ -6,7 +6,7 @@
         "images": ["./images/projects/amazon-1.png", "./images/projects/amazon-2.png", "./images/projects/amazon-3.png", "./images/projects/amazon-4.png", "./images/projects/amazon-5.png"],
         "code": "https://github.com/mohamedsellami/Amazon-Clone.git",
         "demo": "https://clone-a49c5.web.app/",
-        "tools": [["./images/html.png", "./images/css.png", "./images/javascript.svg", "./images/react.svg", "./images/firebase.png"], [{"details": "in this project I used HTML, CSS, JavaScript, React and Firebase"}, {"details": "I used some modern technologies like React Hooks, React Context API, Reducer Hooks, React-Router and Material UI"}, {"details": "I used Firebise to deploy the website and I used Firebase Authentication"}]],
+        "tools": [["./images/html.png", "./images/css.png", "./images/javascript.svg", "./images/react.svg", "./images/firebase.png"], [{"details": "in this project I used HTML, CSS, JavaScript, React and Firebase"}, {"details": "I used some modern technologies like React Hooks, React Context API, Reducer Hooks, React-Router and Material UI"}, {"details": "I used Firebase to deploy the website and I used Firebase Authentication"}]],
         "features": ["User can add and remove products to the basket", "User can see all the products he/she added on the checkout page", "User can move to the payment page", "When a user moves between pages the page will not reload and that makes the website faster", "User can see the total amount of products he/she added", "I Added animation to the website to give user better experience"]
     },
     {
